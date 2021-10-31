@@ -1,0 +1,33 @@
+smartkey.sk_apps#sk_apps_base64 .sk_box_content{
+	width: 400px;
+}
+smartkey.sk_apps#sk_apps_base64 .base_code,
+smartkey.sk_apps#sk_apps_base64 .base_str{
+	text-align: center;
+}
+smartkey.sk_apps#sk_apps_base64 .base_code{
+	position: absolute;
+	left: -500px;
+	top: 10px;
+	background-color: #fff;
+	padding: 5px; 
+	transition:all .4s ease-in-out;
+}
+smartkey.sk_apps#sk_apps_base64 .base_areastr,
+smartkey.sk_apps#sk_apps_base64 .base_areacode{
+	width: 360px;
+	height: 180px;
+	margin-bottom: 10px;
+}
+smartkey.sk_apps#sk_apps_base64 .sk_copyright{
+	font-size: 12px;
+	color: #777;
+	border-top: 1px solid #eee;
+	text-align: center;
+	padding-top: 5px;
+	margin-top: 10px;
+}
+smartkey.sk_apps#sk_apps_base64 .sk_copyright a{
+	color: #777;
+	text-decoration: none;
+}

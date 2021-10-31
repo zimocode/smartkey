@@ -1,0 +1,725 @@
+﻿{
+  "ext_name":{
+    "message":"smartKey Shortcuts"
+  },
+  "ext_des":{
+    "message":"Shortcuts for Google Chrome! Customizable with many actions."
+  },
+
+  "settings":{
+    "message":"Settings"
+  },
+  "general":{
+    "message":"General"
+  },
+  "actions":{
+    "message":"Actions"
+  },
+  "advanced":{
+    "message":"Advanced"
+  },
+  "about":{
+    "message":"About"
+  },
+
+
+  "none":{
+    "message":"None"
+  },
+  "back":{
+    "message":"Back"
+  },
+  "forward":{
+    "message":"Forward"
+  },
+  "scroll":{
+    "message":"Scroll"
+  },
+  "reload":{
+    "message":"Reload"
+  },
+  "stop":{
+    "message":"Stop"
+  },
+  "next":{
+    "message":"Next Page"
+  },
+  "previous":{
+    "message":"Previous Page"
+  },
+  "close":{
+    "message":"Close Tab"
+  },
+  "newtab":{
+    "message":"New Tab"
+  },
+  "reopen":{
+    "message":"Reopen Closed Tab"
+  },
+  "open":{
+    "message":"Open URL"
+  },
+  "openclip":{
+    "message":"Open URL in Clipboard"
+  },
+  "switchtab":{
+    "message":"Switch Tab"
+  },
+  "move":{
+    "message":"Move Tab"
+  },
+  "detach":{
+    "message":"Detach Tab"
+  },
+  "pin":{
+    "message":"Pin Tab"
+  },
+  "duplicate":{
+    "message":"Copy Tab"
+  },
+  "copytabele":{
+    "message":"Copy Tab's Element"
+  },
+  "newwin":{
+    "message":"New Window"
+  },
+  "closewin":{
+    "message":"Close Window"
+  },
+  "max":{
+    "message":"Maximize"
+  },
+  "min":{
+    "message":"Minimize"
+  },
+  "full":{
+    "message":"Full Screen"
+  },
+  "copytxt":{
+    "message":"Copy Texts"
+  },
+  "tts":{
+    "message":"Text To Speech"
+  },
+  "txtsearch":{
+    "message":"Search Texts"
+  },
+  "crpages":{
+    "message":"Open Internal Pages"
+  },
+  "restart":{
+    "message":"Restart Chrome"
+  },
+  "exit":{
+    "message":"Exit Chrome"
+  },
+  "optionspage":{
+    "message":"Open Options Page"
+  },
+  "reloadext":{
+    "message":"Reload smartKey"
+  },
+  "dldir":{
+    "message":"Open Default Downloads Folder"
+  },
+  "capture":{
+    "message":"Screenshot"
+  },
+  "bookmark":{
+    "message":"Add Bookmark"
+  },
+  "script":{
+    "message":"Run Script"
+  },
+  "source":{
+    "message":"View Source"
+  },
+  "zoom":{
+    "message":"Zoom"
+  },
+  "savepage":{
+    "message":"Save Page"
+  },
+  "mail":{
+    "message":"Sharing with Email"
+  },
+  "print":{
+    "message":"Print"
+  },
+
+  "rss":{
+    "message":"RSS"
+  },
+  "tablist":{
+    "message":"Tabs List"
+  },
+  "random":{
+    "message":"Random Number"
+  },
+  "extmgm":{
+    "message":"Extensions Management"
+  },
+  "recentbk":{
+    "message":"Recent Bookmarks"
+  },
+  "recentht":{
+    "message":"Recent History"
+  },
+  "recentclosed":{
+    "message":"Recent Closed Tabs"
+  },
+  "synced":{
+    "message":"Synced Tabs"
+  },
+  "base64":{
+    "message":"Base64 Code"
+  },
+  "qr":{
+    "message":"QR Code"
+  },
+  "numc":{
+    "message":"Numerals Converter"
+  },
+  "speaker":{
+    "message":"Text Speaker"
+  },
+  "appslist":{
+    "message":"Mini APPs list"
+  },
+
+
+  "set_engine":{
+    "message":"Search engines"
+  },
+  "set_script":{
+    "message":"Custom scripts"
+  },
+  "set_action":{
+    "message":"Shortcuts management"
+  },
+  "set_per":{
+    "message":"Permissons"
+  },
+  "set_conf":{
+    "message":"Configuration"
+  },
+  "set_translate":{
+    "message":"Translation"
+  },
+  "set_log":{
+    "message":"Change Log"
+  },
+
+
+  "con_timeout":{
+    "message":"Timeout (ms):"
+  },
+  "con_icon":{
+    "message":"Show ICON in address bar"
+  },
+  "con_autosave":{
+    "message":"Auto save settings"
+  },
+  "con_notif":{
+    "message":"Show update notification"
+  },
+  "con_confexp":{
+    "message":"Export:"
+  },
+  "con_confimp":{
+    "message":"Import:"
+  },
+  "con_confrst":{
+    "message":"Reset:"
+  },
+  "con_aboutname":{
+    "message":"Name:"
+  },
+  "con_aboutver":{
+    "message":"Version:"
+  },
+  "con_aboutsite":{
+    "message":"Site:"
+  },
+  "con_aboutfb":{
+    "message":"Feedback:"
+  },
+  "con_export":{
+    "message":"Click here to export configuration."
+  },
+  "con_mydes":{
+    "message":"Customization action name"
+  },
+  "con_name":{
+    "message":"Name:"
+  },
+  "con_content":{
+    "message":"Content:"
+  },
+  "con_appnotif":{
+    "message":"Show mini-apps' notification"
+  },
+
+  "des_per":{
+    "message":"For more information, visit https://developer.chrome.com/extensions/permission_warnings"
+  },
+  "des_conf":{
+    "message":"configuration data will be synced by chrome, if you are login chrome with Google account."
+  },
+  "des_getpers":{
+    "message":"You can always delete these requested permissions from Settings>General>Permissions"
+  },
+
+
+  "n_tab":{
+    "message":"Target tab:"
+  },
+  "n_position":{
+    "message":"Position:"
+  },
+  "n_optype":{
+    "message":"Open type:"
+  },
+  "n_win":{
+    "message":"Target windows:"
+  },
+  "n_wintype":{
+    "message":"Window type:"
+  },
+  "n_winincog":{
+    "message":"Incognito:"
+  },
+  "n_reload_clear":{
+    "message":"Clear Cache:"
+  },
+  "n_close_sel":{
+    "message":"Selected Tab:"
+  },
+  "n_pin":{
+    "message":"Pin:"
+  },
+  "n_effect":{
+    "message":"Effect:"
+  },
+  "n_jq":{
+    "message":"Inject JQ:"
+  },
+  "n_copytabele_content":{
+    "message":"Copy type:"
+  },
+  "n_crpages":{
+    "message":"Internal pages:"
+  },
+  "n_dlbar":{
+    "message":"Show downlaod bar:"
+  },
+  "n_encoding":{
+    "message":"Encoding:"
+  },
+  "n_zoom":{
+    "message":"Zoom:"
+  },
+  "n_scroll":{
+    "message":"Scroll type:"
+  },
+  "n_mail":{
+    "message":"Email Type:"
+  },
+  "n_gender":{
+    "message":"Gender:"
+  },
+  "n_voicename":{
+    "message":"Voice Engine:"
+  },
+  "n_engine":{
+    "message":"Engine:"
+  },
+  "n_script":{
+    "message":"Script:"
+  },
+  "n_npkey_n":{
+    "message":"Key words:"
+  },
+  "n_npkey_p":{
+    "message":"Key words:"
+  },
+  "n_num":{
+    "message":"Number:"
+  },
+  "n_mail_prefix":{
+    "message":"Perfix:"
+  },
+  "n_pitch":{
+    "message":"Pitch:"
+  },
+  "n_volume":{
+    "message":"Volume:"
+  },
+  "n_rate":{
+    "message":"Rate:"
+  },
+  "n_url":{
+    "message":"URL:"
+  },
+  "n_close_keep":{
+    "message":"Keep window, when closing last tab."
+  },
+  "n_closebox":{
+    "message":"Close window, after clicked list item."
+  },
+
+
+  "s_current":{
+    "message":"Current"
+  },
+  "s_others":{
+    "message":"Others"
+  },
+  "s_all":{
+    "message":"All"
+  },
+  "s_head":{
+    "message":"Head"
+  },
+  "s_last":{
+    "message":"Last"
+  },
+  "s_left":{
+    "message":"Left"
+  },
+  "s_right":{
+    "message":"Right"
+  },
+  "s_lefts":{
+    "message":"Lefts"
+  },
+  "s_rights":{
+    "message":"Rights"
+  },
+  "s_new":{
+    "message":"Front"
+  },
+  "s_back":{
+    "message":"Background"
+  },
+  "s_incog":{
+    "message":"Incognito"
+  },
+  "s_default":{
+    "message":"Default"
+  },
+  "s_normal":{
+    "message":"Normal"
+  },
+  "s_popup":{
+    "message":"Popup"
+  },
+  "s_panel":{
+    "message":"Panel"
+  },
+  "s_detached_panel":{
+    "message":"Detached Panel"
+  },
+  "s_no":{
+    "message":"No"
+  },
+  "s_yes":{
+    "message":"Yes"
+  },
+  "s_unpin":{
+    "message":"Unpin"
+  },
+  "s_pinned":{
+    "message":"Pin"
+  },
+  "s_tabele_title":{
+    "message":"Tab's title"
+  },
+  "s_tabele_url":{
+    "message":"Tab's URL"
+  },
+  "s_tabele_aslnk":{
+    "message":"As link"
+  },
+  "s_cr_set":{
+    "message":"Settings"
+  },
+  "s_cr_ext":{
+    "message":"Extensions"
+  },
+  "s_cr_history":{
+    "message":"History"
+  },
+  "s_cr_app":{
+    "message":"Apps"
+  },
+  "s_cr_bookmark":{
+    "message":"Bookmarks"
+  },
+  "s_cr_dl":{
+    "message":"Downloads"
+  },
+  "s_cr_flag":{
+    "message":"Flags"
+  },
+  "s_none":{
+    "message":"None"
+  },
+  "s_unicode":{
+    "message":"Unicode"
+  },
+  "s_uri":{
+    "message":"encodeURI"
+  },
+  "s_uric":{
+    "message":"encodeURIComponent"
+  },
+  "s_in":{
+    "message":"Zoom in"
+  },
+  "s_out":{
+    "message":"Zoom out"
+  },
+  "s_reset":{
+    "message":"Reset"
+  },
+  "s_up":{
+    "message":"Up"
+  },
+  "s_down":{
+    "message":"Down"
+  },
+  "s_left":{
+    "message":"Left"
+  },
+  "s_right":{
+    "message":"Right"
+  },
+  "s_top":{
+    "message":"Top"
+  },
+  "s_bottom":{
+    "message":"Bottom"
+  },
+  "s_leftmost":{
+    "message":"Leftmost"
+  },
+  "s_rightmost":{
+    "message":"Rightmost"
+  },
+  "s_gmail":{
+    "message":"Gmail"
+  },
+  "s_defaultmail":{
+    "message":"System's mail application"
+  },
+  "s_gmailapps":{
+    "message":"*Gmail with Google Apps"
+  },
+  "s_female":{
+    "message":"Female"
+  },
+  "s_male":{
+    "message":"Male"
+  },
+  "native":{
+    "message":"native"
+  },
+  "s_on":{
+    "message":"On"
+  },
+  "s_off":{
+    "message":"Off"
+  },
+
+  "btn_save":{
+    "message":"SAVE"
+  },
+  "btn_cancel":{
+    "message":"CANCEL"
+  },
+  "btn_del":{
+    "message":"DELETE"
+  },
+  "btn_reset":{
+    "message":"RESET"
+  },
+  "btn_done":{
+    "message":"DONE"
+  },
+  "btn_decode":{
+    "message":"DECODE"
+  },
+  "btn_encode":{
+    "message":"ENCODE"
+  },
+  "btn_done":{
+    "message":"DONE"
+  },
+  "btn_back":{
+    "message":"BACK"
+  },
+  "btn_play":{
+    "message":"PLAY"
+  },
+  "btn_pause":{
+    "message":"PAUSE"
+  },
+  "btn_stop":{
+    "message":"STOP"
+  },
+
+
+
+  "ag_none":{
+    "message":"None"
+  },
+  "ag_nav":{
+    "message":"Navigation"
+  },
+  "ag_tab":{
+    "message":"Tab"
+  },
+  "ag_window":{
+    "message":"Window"
+  },
+  "ag_txt":{
+    "message":"Texts"
+  },
+  "ag_chrome":{
+    "message":"For Chrome"
+  },
+  "ag_ext":{
+    "message":"For smartKey"
+  },
+  "ag_others":{
+    "message":"Others"
+  },
+  "ag_dep":{
+    "message":"Deprecated"
+  },
+  "ag_exp":{
+    "message":"Experimental"
+  },
+
+
+
+  "msg_saved":{
+    "message":"Settings saved!"
+  },
+  "msg_blank":{
+    "message":"You must enter something to continue!"
+  },
+  "msg_setkey":{
+    "message":"Please set shortcut keys!"
+  },
+  "msg_repeatkey":{
+    "message":"The shortcut keys are repeat, please try another one."
+  },
+  "msg_delpers":{
+    "message":"The permission has been deleted."
+  },
+  "msg_delpers_fail":{
+    "message":"Its a basic permission, cant be deleted."
+  },
+  "msg_dellast":{
+    "message":"It is the LAST one, we need to keep it."
+  },
+  "msg_delinuse":{
+    "message":"It is in used, can not be deleted."
+  },
+  "msg_reset":{
+    "message":"Note: This operation will reset all configurations, and can not be undone! Input 'ReSeT' to continue ..."
+  },
+  "msg_reset2":{
+    "message":"Entered incorrectly, the operation has been canceled!"
+  },
+  "msg_importver":{
+    "message":"smartKey must be upgraded to the latest version to import the configuration."
+  },
+  "msg_confimport":{
+    "message":"Configuration file error! ! !"
+  },
+  "msg_first":{
+    "message":"Thank you for installing this extension.<br \/><li>smartKey is free, I'm glad, if you give a five stars rating.<li>For some reasons, some actions can not work in this options page.(scroll,script...).<li>Becouse of Chrome's limitations, smartKey cant work in some tabs too.(newtab,setting page...)<li>There are a few actions, you'll add more. Try not to hide the default browser action, such as,ctrl+C,ctrl+V. And, some default browser actions cant be hided, such as, ctrl+W."
+  },
+  "msg_change":{
+    "message":"Changing has been saved."
+  },
+  "msg_notiftitle":{
+    "message":"smartKey notifications"
+  },
+
+
+  "app_tip_opt":{
+    "message":"Options"
+  },
+
+  "app_rss_sub":{
+    "message":"Feeds list"
+  },
+  "app_rss_new":{
+    "message":"NEW"
+  },
+  "app_rss_subplace":{
+    "message":"RSS2.0"
+  },
+  "app_rss_menu":{
+    "message":"Menu"
+  },
+  "app_random_bound":{
+    "message":"Bound:"
+  },
+  "app_random_num":{
+    "message":"Number:"
+  },
+  "app_random_norepeat":{
+    "message":"No-repeat"
+  },
+  "app_random_fill":{
+    "message":"Fill all digital"
+  },
+  "app_extmgm_disableall":{
+    "message":"DISABLE ALL"
+  },
+  "app_numc_from":{
+    "message":"From:"
+  },
+  "app_numc_to":{
+    "message":"To:"
+  },
+  "app_synced_switch":{
+    "message":"Switch synced device: "
+  },
+  "app_synced_nodevice":{
+    "message":"there's no synced device."
+  },
+  "app_qr_url":{
+    "message":"URL of current tab."
+  },
+  "app_qr_title":{
+    "message":"Title of current tab."
+  },
+  "app_qr_seltxt":{
+    "message":"Selected texts."
+  },
+  "app_qr_customer":{
+    "message":"Customized text."
+  },
+
+   "per_title":{
+    "message":"Permission Request"
+  },
+  "per_des":{
+    "message":"To use the action, need to require more permissions:"
+  },
+  "per_btn":{
+    "message":"Get Permissons"
+  },
+  "per_after":{
+    "message":"Permissions request successful! Please re-try the last shortcut. It will work after Chrome be restarted, sometimes.<br \/>This page will be closed in "
+  },
+  "per_des1":{
+    "message":"You can always delete these requested permissions from Settings>General>Permissions"
+  }
+}

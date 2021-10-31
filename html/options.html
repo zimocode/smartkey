@@ -1,0 +1,114 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Loading...</title>
+    <script src="../js/base64.min.js"></script>
+    <link href="../css/options.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+    <div id="msgbox"></div>
+    <nav>
+        <div id="nav">
+            <div id="logo"><img style="max-height:120px;" src="../icon.png"></div>
+            <ul>
+                <li class="tab tab_select" data-id="0" data-i18n="general">General</li>
+                <li class="tab" data-id="1" data-i18n="actions">Actions</li>
+                <li class="tab" data-id="2" data-i18n="advanced">Advanced</li>
+                <li class="tab" data-id="3" data-i18n="about">About</li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <div id="main">
+            <div class="set" id="set_0">
+                <div class="set_title" data-i18n="settings"></div>
+                <div class="set_content" data-confobj="general">
+                    <label data-i18n="con_timeout" data-i18n="con_timeout"></label><br />
+                    <input class="init change" data-confele="timeout" type="range" min="200" max="2000" step="100" style="margin-left:20px;"><span class="range_value"></span><br />
+                    <input id="chk_icon" class="init change" data-confele="icon" data-i18n="con_icon" type="checkbox"><label for="chk_icon" data-i18n="con_icon">Show icon in address bar</label><br />
+                    <input id="chk_autosave" class="init change" disabled data-confele="autosave" type="checkbox"><label for="chk_autosave" data-i18n="con_autosave">Auto save settings</label><br />
+                    <input id="chk_notif" class="init change" disabled data-confele="notif" type="checkbox"><label for="chk_notif" data-i18n="con_notif">Show update notification</label><br />
+                    <input id="chk_appnotif" class="init change" disabled data-confele="appnotif" type="checkbox"><label for="chk_appnotif" data-i18n="con_appnotif"></label><br />
+                </div>
+                <div class="set_title" data-i18n="set_engine"></div>
+                <div class="set_content" data-confobj="engine">
+                    <ul class="item_ul" id="item_engine"></ul>
+                    <div class="btn_add">+</div>
+                    <div style="clear:both;"></div>
+                </div>
+                <div class="set_title" data-i18n="set_script"></div>
+                <div class="set_content" data-confobj="script">
+                    <ul class="item_ul" id="item_script"></ul>
+                    <div class="btn_add">+</div>
+                    <div style="clear:both;"></div>
+                </div>
+            </div>
+            <div class="set" id="set_1">
+                <div class="set_title" data-i18n="set_action"></div>
+                <div class="set_content" data-confobj="action">
+                    <ul class="item_ul" id="item_action"></ul>
+                    <div class="btn_add add_action">+</div>
+                    <div style="clear:both;"></div>
+                </div>
+            </div>
+            <div class="set" id="set_2">
+                <div class="set_title" data-i18n="set_per"></div>
+                <div class="set_content">
+                    <ul class="item_ul" id="item_pers" data-confobj="permission" data-type="permissions"></ul>
+                    <ul class="item_ul" id="item_orgs" data-confobj="permission" data-type="origins"></ul>
+                    <div style="clear:both;"></div>
+                    <div class="set_des" data-i18n="des_per"></div>
+                </div>
+                <div class="set_title" data-i18n="set_conf"></div>
+                <div class="set_content">
+                    <span class="conf_title" data-i18n="con_confexp"></span><span id="conf_export"></span><br />
+                    <span class="conf_title" data-i18n="con_confimp"></span><input type="file" id="conf_import"><br />
+                    <span class="conf_title" data-i18n="con_confrst"></span><input type="button" id="conf_reset" data-i18n="btn_reset" value="Reset All Configuration" style="margin-left:0;">
+                    <div class="set_des" data-i18n="des_conf"></div>
+                </div>
+            </div>
+            <div class="set" id="set_3">
+                <div class="set_title" data-i18n="about"></div>
+                <div class="set_content">
+                    <div id="about_des">smartKey is a chortcut extension.</div>
+                    <div>
+                        <span class="about_name" data-i18n="con_aboutname"></span><span class="about_content">smartKey Shortcuts</span><br />
+                        <span class="about_name" data-i18n="con_aboutver"></span><span class="about_content" id="ext_ver">0.9.12.122</span><br />
+                        <span class="about_name" data-i18n="con_aboutsite"></span><span class="about_content"><a href="http://smartkey.zimoapps.com" target="_blank">smartkey.zimoapps.com</a></span></br />
+                        <span class="about_name" data-i18n="con_aboutfb"></span><span class="about_content"><a href="mailto:dev@smartkey.zimoapps.com">dev@smartkey.zimoapps.com</a></span>
+                    </div>
+                </div>
+                <div class="set_title" data-i18n="set_translate"></div>
+                <div class="set_content">
+                    Do you want to display with your language? If you are familiar with English, so, you can help me to translate to your language. Please contact with me by email, dev@smartkey.zimoapps.com .
+                </div>
+                <div class="set_title" data-i18n="set_log"></div>
+                <div class="set_content set_log">
+                    
+                </div>
+            </div>
+        </div>
+    </main>
+    <smartkey class="sk_apps" style="display:none;">
+        <div class="box_head" style="">
+            <span class="box_title"></span>
+            <div class="box_btn_close">x</div>
+        </div>
+        <div class="box_main">
+            <div class="box_content"></div>
+            <div style="clear:both;"></div>
+            <div class="box_submit">
+                <input class="box_btn box_btn_del" style="float:left;" type="button" value="delete">
+                <input class="box_btn box_btn_cancel" type="button" value="cancel">
+                <input class="box_btn box_btn_save" type="button" value="save">
+            </div>
+            <div class="box_des">
+                <ul></ul>
+            </div>
+        </div>
+    </smartkey>
+</body>
+    <script src="../js/options.js"></script>
+    <script src="../js/event.js"></script>
+</html>

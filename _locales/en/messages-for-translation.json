@@ -1,0 +1,988 @@
+﻿{
+  "ext_des": {
+    "message": "A better gestures extension. Features include: mouse gestures, simple drag, super drag, etc."
+  },
+  "tl_ext_desb": {
+    "message": "smartUp will help you to use chrome smartly and quickly, features include mouse gestures, simple drag, super drag and so on. With it, you can quickly complete many common operations, such as close tab/new tab, Minimize/Maximize window. And, you can start up another extension too( with few changes ) . "
+  },
+  "tl_ext_ver": {
+    "message": "Version:"
+  },
+  "tl_ext_site": {
+    "message": "Site:"
+  },
+  "tl_ext_email": {
+    "message": "Feedback:"
+  },
+  "tl_opt_title": {
+    "message": "Settings"
+  },
+  "tl_menu_save": {
+    "message": "Save Settings"
+  },
+  "tl_menu_reset": {
+    "message": "Reset Current Page"
+  },
+  "tl_menu_autosave": {
+    "message": "Auto Save Settings"
+  },
+  "tl_menu_rate": {
+    "message": "Rating"
+  },
+  "tl_menu_rate1": {
+    "message": "Rate on Chrome Web Store"
+  },
+  "tl_menuplus_opennew":{
+    "message":"Open in new tab"
+  },
+  "tl_menuplus_exit":{
+    "message":"Exit"
+  },
+  "tl_con_name": {
+    "message": "Name:"
+  },
+  "tl_con_engineurl": {
+    "message": "Engine URL:"
+  },
+  "tl_con_timeout": {
+    "message": "Timeout"
+  },
+  "tl_con_minlength": {
+    "message": "The minimum length of the line drawing"
+  },
+  "tl_con_icon": {
+    "message": "Show ICON in address bar"
+  },
+  "tl_con_autosave": {
+    "message": "Auto save settings"
+  },
+  "tl_con_notif": {
+    "message": "Show update notification"
+  },
+  "tl_con_linux": {
+    "message": "Fix Linux/Mac context menu bug( double-click right button to pop-up context menu)"
+  },
+  "tl_con_autosync": {
+    "message": "Auto sync settings"
+  },
+  "tl_con_clearsync": {
+    "message": "Empty sync data"
+  },
+  "tl_con_mgesmode": {
+    "message": "Operating mode:"
+  },
+  "tl_con_mgesholdkey": {
+    "message": "Hold the following key to disable mouse gestures temporarily :"
+  },
+  "tl_con_drgbox": {
+    "message": "Enable drag in text box"
+  },
+  "tl_con_drgurl": {
+    "message": "Convert to URL, if the text can be"
+  },
+  "tl_con_drgimg": {
+    "message": "As an image,if the Link contains an image"
+  },
+  "tl_con_drgholdkey": {
+    "message": "Hold the following key to disable Drag temporarily :"
+  },
+  "tl_con_drgholdimgkey": {
+    "message": "If the Link contains image,Hold the following key to use Drag-image instead of Drag-link :"
+  },
+  "tl_con_enabletxt": {
+    "message": "Text Drag"
+  },
+  "tl_con_enablelnk": {
+    "message": "Link Drag"
+  },
+  "tl_con_enableimg": {
+    "message": "Image Drag"
+  },
+  "tl_con_rate":{
+    "message":"Hi, smartUp is nice? Let everyone know that through rating and commenting"
+  },
+  "tl_con_lang":{
+    "message":"Displays language:"
+  },
+  "tl_con_export":{
+    "message":"Click here to export configuration."
+  },
+  "tl_stnm_per_pers": {
+    "message": "Permissions Management"
+  },
+  "tl_stnm_per_orgs": {
+    "message": "Origins Management"
+  },
+  "tl_stnm_settings": {
+    "message": "Settings"
+  },
+  "tl_stnm_function": {
+    "message": "Features ON"
+  },
+  "tl_stnm_opts": {
+    "message": "Settings of Options Page"
+  },
+  "tl_stnm_txtengine": {
+    "message": "Texts Search Engine Management"
+  },
+  "tl_stnm_imgengine": {
+    "message": "Images Search Engine Management"
+  },
+  "tl_stnm_script": {
+    "message": "Script Management"
+  },
+  "tl_stnm_linux": {
+    "message": "Linux/Mac Settings"
+  },
+  "tl_stnm_importconf": {
+    "message": "Import Configuration"
+  },
+  "tl_stnm_exportconf": {
+    "message": "Export Configuration"
+  },
+  "tl_stnm_syncconf":{
+    "message": "Sync Configuration"
+  },
+  "tl_stnm_resetconf": {
+    "message": "Reset All Configuration"
+  },
+  "tl_stnm_ui": {
+    "message": "UI Settings"
+  },
+  "tl_stnm_editmges": {
+    "message": "Mouse Gestures Actions"
+  },
+  "tl_stnm_edittxtdrg": {
+    "message": "Text Drag Actions"
+  },
+  "tl_stnm_editlnkdrg": {
+    "message": "Link Drag Actions"
+  },
+  "tl_stnm_editimgdrg": {
+    "message": "Image Drag Actions"
+  },
+  "tl_stnm_drgsw": {
+    "message": "Drag ON"
+  },
+  "tl_des_pers": {
+    "message": "For more information, visit https://developer.chrome.com/extensions/permission_warnings "
+  },
+  "tl_des_pers1":{
+    "message":"You can always delete these requested permissions from Settings>General>Permissions"
+  },
+  "tl_des_lang":{
+    "message": "smartUp will display in English or chrome's display language. "
+  },
+  "tl_des_linux": {
+    "message": "This option is valid only in the non-window platform. Need to double clicking right button to pop up context menu."
+  },
+  "tl_des_sync": {
+    "message": "smartUp's configuration data will be synced by chrome, if you are $LOGIN$ with Google account.",
+    "placeholders": {
+      "login": {
+        "content": "<a id='su_login' href='chrome:\/\/chrome-signin\/'>login chrome</a>"
+      }
+    }
+  },
+  "tl_des_item": {
+    "message": "Click item to edit, click 'X' to delete, and, '+' to add a new item."
+  },
+  "tl_des_fnswitch": {
+    "message": "Based on individual needs to choose, advised to turn off the feature which is not commonly used."
+  },
+  "tl_s_default": {
+    "message": "Default"
+  },
+  "tl_s_current": {
+    "message": "Current"
+  },
+  "tl_s_others": {
+    "message": "Others"
+  },
+  "tl_s_all": {
+    "message": "All"
+  },
+  "tl_s_head": {
+    "message": "Head"
+  },
+  "tl_s_last": {
+    "message": "Last"
+  },
+  "tl_s_left": {
+    "message": "Left"
+  },
+  "tl_s_right": {
+    "message": "Right"
+  },
+  "tl_s_lefts": {
+    "message": "Lefts"
+  },
+  "tl_s_rights": {
+    "message": "Rights"
+  },
+  "tl_s_up": {
+    "message": "Up"
+  },
+  "tl_s_down": {
+    "message": "Down"
+  },
+  "tl_s_top": {
+    "message": "Top"
+  },
+  "tl_s_bottom": {
+    "message": "Bottom"
+  },
+  "tl_s_leftmost": {
+    "message": "Leftmost"
+  },
+  "tl_s_rightmost": {
+    "message": "Rightmost"
+  },
+  "tl_s_frame": {
+    "message": "Frame"
+  },
+  "tl_s_on": {
+    "message": "On"
+  },
+  "tl_s_off": {
+    "message": "Off"
+  },
+  "tl_s_yes": {
+    "message": "Yes"
+  },
+  "tl_s_no": {
+    "message": "No"
+  },
+  "tl_s_new": {
+    "message": "Front"
+  },
+  "tl_s_back": {
+    "message": "Background"
+  },
+  "tl_s_incog": {
+    "message": "Incognito"
+  },
+  "tl_s_unpin": {
+    "message": "Unpin"
+  },
+  "tl_s_pinned": {
+    "message": "Pin"
+  },
+  "tl_s_normal": {
+    "message": "Normal"
+  },
+  "tl_s_popup": {
+    "message": "Popup"
+  },
+  "tl_s_panel": {
+    "message": "Panel"
+  },
+  "tl_s_detached_panel": {
+    "message": "Detached Panel"
+  },
+  "tl_s_tabele_title":{
+    "message":"Tab's title"
+  },
+  "tl_s_tabele_url":{
+    "message":"Tab's URL"
+  },
+  "tl_s_tabele_aslnk":{
+    "message":"As link"
+  },
+  "tl_s_cr_set":{
+    "message":"Settings"
+  },
+  "tl_s_cr_ext":{
+    "message":"Extensions"
+  },
+  "tl_s_cr_history":{
+    "message":"Historys"
+  },
+  "tl_s_cr_app":{
+    "message":"Apps"
+  },
+  "tl_s_cr_dl":{
+    "message":"Downloads"
+  },
+  "tl_s_cr_bookmark":{
+    "message":"Bookmarks"
+  },
+  "tl_s_cr_flag":{
+    "message":"Flags"
+  },
+  "tl_s_unicode":{
+    "message":"Unicode"
+  },
+  "tl_s_uri":{
+    "message":"encodeURI"
+  },
+  "tl_s_uric":{
+    "message":"encodeURIComponent"
+  },
+  "tl_s_none": {
+    "message": "None"
+  },
+  "tl_s_ctrl": {
+    "message": "Ctrl"
+  },
+  "tl_s_alt": {
+    "message": "Alt"
+  },
+  "tl_s_shift": {
+    "message": "Shift"
+  },
+  "tl_s_mousebutton1": {
+    "message": "Middle Button"
+  },
+  "tl_s_mousebutton2": {
+    "message": "Right Button"
+  },
+  "tl_s_o_follow": {
+    "message": "Follow"
+  },
+  "tl_s_o_center": {
+    "message": "Center"
+  },
+  "tl_s_o_hover": {
+    "message": "Link style"
+  },
+  "tl_s_in": {
+    "message": "Zoom in"
+  },
+  "tl_s_out": {
+    "message": "Zoom out"
+  },
+  "tl_s_reset": {
+    "message": "Reset"
+  },
+  "tl_n_close": {
+    "message": "Target Tab:"
+  },
+  "tl_n_reload_clear": {
+    "message": "Clear Cache:"
+  },
+  "tl_n_close_sel": {
+    "message": "Selected Tab:"
+  },
+  "tl_n_close_keep":{
+    "message":"Keep window, when closing last tab."
+  },
+  "tl_n_target": {
+    "message": "Open Style:"
+  },
+  "tl_n_position": {
+    "message": "Position:"
+  },
+  "tl_n_new_position": {
+    "message": "Position:"
+  },
+  "tl_n_win_type": {
+    "message": "Window Type:"
+  },
+  "tl_n_win_incog": {
+    "message": "Incognito Window:"
+  },
+  "tl_n_win": {
+    "message": "Target Window:"
+  },
+  "tl_n_effect": {
+    "message": "Scroll Effects:"
+  },
+  "tl_n_pin": {
+    "message": "Pin:"
+  },
+  "tl_n_url": {
+    "message": "URL:"
+  },
+  "tl_n_encoding":{
+    "message":"Encoding:"
+  },
+  "tl_n_target_np":{
+    "message":"Open style:"
+  },
+  "tl_n_npkey_n":{
+    "message":"Key words:"
+  },
+  "tl_n_npkey_p":{
+    "message":"Key words:"
+  },
+  "tl_n_dlbar":{
+    "message":"Show downlaod bar:"
+  },
+  "tl_n_crpages":{
+    "message":"Internal pages:"
+  },
+  "tl_n_copytabele_content":{
+    "message":"Copy type:"
+  },
+  "tl_n_script":{
+    "message":"Script:"
+  },
+  "tl_n_jq": {
+    "message": "Inject JQ:"
+  },
+  "tl_n_txtengine": {
+    "message": "Texts engine:"
+  },
+  "tl_n_imgengine": {
+    "message": "Images engine:"
+  },
+  "tl_n_zoom":{
+    "message":"Zoom type:"
+  },
+  "tl_n_scroll":{
+    "message":"Scroll Type:"
+  },
+  "tl_n_num":{
+    "message":"Number:"
+  },
+  "tl_n_appwin_close":{
+    "message":"Close interface, after clicked list item."
+  },
+  "tl_script": {
+    "message": "Script"
+  },
+  "tl_ag_none": {
+    "message": "None"
+  },
+  "tl_ag_nav": {
+    "message": "Navigation"
+  },
+  "tl_ag_scroll": {
+    "message": "Scroll"
+  },
+  "tl_ag_tab": {
+    "message": "Tab"
+  },
+  "tl_ag_window": {
+    "message": "Window"
+  },
+  "tl_ag_copy": {
+    "message": "Copy"
+  },
+  "tl_ag_txt": {
+    "message": "Texts"
+  },
+  "tl_ag_lnk": {
+    "message": "Links"
+  },
+  "tl_ag_img": {
+    "message": "Images"
+  },
+  "tl_ag_others": {
+    "message": "Others"
+  },
+  "tl_ag_search": {
+    "message": "Search"
+  },
+  "tl_ag_save":{
+    "message":"Save"
+  },
+  "tl_ag_exp":{
+    "message":"Experimental"
+  },
+  "tl_ag_chrome":{
+    "message":"About Chrome"
+  },
+  "tl_ag_apps":{
+    "message":"Mini APPs"
+  },
+  "tl_ag_su":{
+    "message":"About smartUp"
+  },
+  "tl_none": {
+    "message": "None"
+  },
+  "tl_back": {
+    "message": "Back"
+  },
+  "tl_forward": {
+    "message": "Forward"
+  },
+  "tl_stop": {
+    "message": "Stop"
+  },
+  "tl_scroll": {
+    "message": "Scroll"
+  },
+  "tl_next": {
+    "message": "Next Page"
+  },
+  "tl_previous": {
+    "message": "Previous Page"
+  },
+  "tl_reload": {
+    "message": "Reload"
+  },
+  "tl_close": {
+    "message": "Close Tab"
+  },
+  "tl_newtab": {
+    "message": "New Tab"
+  },
+  "tl_reopen": {
+    "message": "Reopen Closed Tab"
+  },
+  "tl_open": {
+    "message": "Open URL"
+  },
+  "tl_openclip": {
+    "message": "Open URL in Clipboard"
+  },
+  "tl_duplicate": {
+    "message": "Copy Tab"
+  },
+  "tl_detach": {
+    "message": "Detach Tab"
+  },
+  "tl_pin": {
+    "message": "Pin Tab"
+  },
+  "tl_switchtab": {
+    "message": "Switch Tab"
+  },
+  "tl_move": {
+    "message": "Move Tab"
+  },
+  "tl_newwin": {
+    "message": "New Window"
+  },
+  "tl_closewin": {
+    "message": "Close Window"
+  },
+  "tl_max": {
+    "message": "Maximize"
+  },
+  "tl_min": {
+    "message": "Minimize"
+  },
+  "tl_full": {
+    "message": "Full Screen"
+  },
+  "tl_copytabas": {
+    "message": "Copy Whith Custom Format "
+  },
+  "tl_capture": {
+    "message": "Screenshot"
+  },
+  "tl_viewsource": {
+    "message": "View Source"
+  },
+  "tl_optionspage": {
+    "message": "Open Options Page"
+  },
+  "tl_copytxt": {
+    "message": "Copy Texts"
+  },
+  "tl_txtsearch": {
+    "message": "Search Texts"
+  },
+  "tl_openlnk": {
+    "message": "Open Link"
+  },
+  "tl_copylnkurl": {
+    "message": "Copy Link URL"
+  },
+  "tl_copylnktxt": {
+    "message": "Copy Link Text"
+  },
+  "tl_copylnkaslnk": {
+    "message": "Copy Link"
+  },
+  "tl_copylnkas": {
+    "message": "Copy Link As ..."
+  },
+  "tl_openimg": {
+    "message": "Open Image"
+  },
+  "tl_saveimg": {
+    "message": "Save Image"
+  },
+  "tl_saveimgas": {
+    "message": "Save Image As ..."
+  },
+  "tl_copyimgurl": {
+    "message": "Copy Image URL"
+  },
+  "tl_imgsearch": {
+    "message": "Search Image"
+  },
+  "tl_paste": {
+    "message": "Paste Text"
+  },
+  "tl_source": {
+    "message": "View Source"
+  },
+  "tl_reloadext": {
+    "message": "Reload smartUp"
+  },
+  "tl_restart": {
+    "message": "Restart Chrome"
+  },
+  "tl_Exit": {
+    "message": "Exit Chrome"
+  },
+  "tl_copytabele": {
+    "message": "Copy Tab's Element"
+  },
+  "tl_crpages":{
+    "message":"Chrome Internal Pages"
+  },
+  "tl_dldir":{
+    "message":"Open Default Downloads Folder"
+  },
+  "tl_bookmark":{
+    "message":"Add Bookmark"
+  },
+  "tl_zoom":{
+    "message":"Zoom"
+  },
+  "tl_savepage":{
+    "message":"Save Page"
+  },
+  "tl_tablist":{
+    "message":"Tabs List"
+  },
+  "tl_general": {
+    "message": "General"
+  },
+  "tl_recentbk":{
+    "message":"Recent Bookmarks"
+  },
+  "tl_recentht":{
+    "message":"Recent History"
+  },
+  "tl_mges": {
+    "message": "Mouse Gestures"
+  },
+  "tl_sdrg": {
+    "message": "Simple Drag"
+  },
+  "tl_drg": {
+    "message": "Super Drag"
+  },
+  "tl_apps": {
+    "message": "APPs Options"
+  },
+  "tl_about": {
+    "message": "About"
+  },
+  "tl_changelog":{
+    "message":"Change Log"
+  },
+  "tl_rate":{
+    "message":"Rate smartUp"
+  },
+  "tl_translate":{
+    "message":"Translation"
+  },
+  "tl_thanks":{
+    "message":"Thanks To"
+  },
+  "tl_help":{
+    "message":"Help"
+  },
+  "tl_setting": {
+    "message": "Settings"
+  },
+  "tl_ui": {
+    "message": "Appearance"
+  },
+  "tl_fnswitch": {
+    "message": "Features ON"
+  },
+  "tl_searchmgr": {
+    "message": "Search Engines"
+  },
+  "tl_scriptmgr": {
+    "message": "Custom Scripts"
+  },
+  "tl_linux": {
+    "message": "Linux/Mac Settings"
+  },
+  "tl_per":{
+    "message":"Permissions"
+  },
+  "tl_conf": {
+    "message": "Configuration"
+  },
+  "tl_mgesmgr": {
+    "message": "Mouse Gestures Actions"
+  },
+  "tl_gesmgr": {
+    "message": "Mouse Gestures Actions"
+  },
+  "tl_tdrg": {
+    "message": "Text Drag Actions"
+  },
+  "tl_ldrg": {
+    "message": "Link Drag Actions"
+  },
+  "tl_idrg": {
+    "message": "Image Drag Actions"
+  },
+  "tl_tsdrg": {
+    "message": "Text Drag Actions"
+  },
+  "tl_lsdrg": {
+    "message": "Link Drag Actions"
+  },
+  "tl_isdrg": {
+    "message": "Image Drag Actions"
+  },
+  "tl_ui_line_enable": {
+    "message": "Show drawing line:"
+  },
+  "tl_ui_direct_enable": {
+    "message": "Show direction:"
+  },
+  "tl_ui_tip_enable": {
+    "message": "Show action name:"
+  },
+  "tl_ui_color": {
+    "message": "Color"
+  },
+  "tl_ui_width": {
+    "message": "Size"
+  },
+  "tl_ui_opacity": {
+    "message": "Transparency"
+  },
+  "tl_ui_bgcolor": {
+    "message": "Background color"
+  },
+  "tl_ui_style": {
+    "message": "Style"
+  },
+  "tl_msg_saved": {
+    "message": "Settings saved!"
+  },
+  "tl_msg_reset2": {
+    "message": "Entered incorrectly, the operation has been canceled!"
+  },
+  "tl_msg_reset": {
+    "message": "Note: This operation will reset all configurations, and can not be undone! Input 'ReSeT' to continue ..."
+  },
+  "tl_msg_confimport": {
+    "message": "Configuration file error! ! !"
+  },
+  "tl_msg_dellast": {
+    "message": "It is the LAST one, we need to keep it."
+  },
+  "tl_msg_delinuse": {
+    "message": "It is in used, can not be deleted."
+  },
+  "tl_msg_delpers": {
+    "message": "The permission has been deleted."
+  },
+  "tl_msg_delpers_fail": {
+    "message": "Its a basic permission for smartUp, cant be deleted."
+  },
+  "tl_msg_dirnone": {
+    "message": "Please drawing line!"
+  },
+  "tl_msg_dirrepeat": {
+    "message": "The direction repeated, try again!"
+  },
+  "tl_msg_blank":{
+    "message":"You must enter something to continue!"
+  },
+  "tl_test_mges": {
+    "message": "Drawing line in here."
+  },
+  "tl_test_tdrg": {
+    "message": "This is a bunch of test text, select the text and drag to draw the line, and then select the action you need."
+  },
+  "tl_test_ldrg": {
+    "message": "<a href='###'> This is a test link, drag the link and draw lines, and select action you need. </ A>"
+  },
+  "tl_test_idrg": {
+    "message": "This is a test image, drag the image and draw the line, and then select the action you need: <img src='../icon.png' />"
+  },
+  "tl_tip_actionname": {
+    "message": "Customization action name"
+  },
+  "tl_btn_save": {
+    "message": "Save"
+  },
+  "tl_btn_cancel": {
+    "message": "Cancel"
+  },
+  "tl_btn_done": {
+    "message": "Done"
+  },
+  "tl_btn_del":{
+    "message":"Delete"
+  },
+  "tl_btn_continue":{
+    "message":"Continue"
+  },
+  "tl_btn_next":{
+    "message":"Next"
+  },
+  "tl_init_openlnk_bg": {
+    "message": "Open link in background"
+  },
+  "tl_init_close_current": {
+    "message": "Close current tab"
+  },
+  "tl_init_search_bg": {
+    "message": "Search text in background"
+  },
+  "tl_init_reload_current": {
+    "message": "Reload current tab"
+  },
+  "tl_init_reload_clear": {
+    "message": "Reload current tab without cache"
+  },
+  "tl_init_switch_left": {
+    "message": "Switch to left tab"
+  },
+  "tl_init_switch_right": {
+    "message": "Switch to right tab"
+  },
+  "tl_init_openimg_bg": {
+    "message": "Open image in background"
+  },
+  "tl_init_searchtxt_bg":{
+    "message": "Search texts in background"
+  },
+  "tl_init_searchimg_bg": {
+    "message": "Search image in background"
+  },
+  "tl_init_scroll_up":{
+    "message":"Scroll up"
+  },
+  "tl_init_scroll_down":{
+    "message":"Scroll down"
+  },
+  "tl_init_scroll_top":{
+    "message":"Scroll top"
+  },
+  "tl_init_scroll_bottom":{
+    "message":"Scroll bottom"
+  },
+  "tl_getper_title":{
+    "message":"Permission Request"
+  },
+  "tl_getper_des":{
+    "message":"To use the action, need to require more permissions:"
+  },
+  "tl_getper_btn":{
+    "message":"Get Permissons"
+  },
+  "tl_getper_after":{
+    "message":"Permissions request successful! Please re-try the last gesture. It will work after Chrome be restarted, sometimes.<br \/>This page will be closed in "
+  },
+  "tl_getper_des1":{
+    "message":"You can always delete these requested permissions frome Settings>General>Permissions"
+  },
+  "tl_wel_title":{
+    "message":"Welcome"
+  },
+  "tl_wel_con":{
+    "message":"Hi, this is the options page of smartUp."
+  },
+  "tl_wel_li1":{
+    "message":"If it's the first time to install, it has been working. Try to hold right button to draw up and right?!"
+  },
+  "tl_wel_li2":{
+    "message":"If you have installed, wait a minute, it is syncing your settings data in background."
+  },
+  "tl_wel_li3":{
+    "message":"For some reasons, some actions can not work in this options page.(scroll,script...)"
+  },
+  "tl_wel_li4":{
+    "message":"Becouse of Chrome's limitations, some tabs can not use smartUp, too.(newtab,setting page...)"
+  },
+  "tl_notif_title":{
+    "message":"smartUp Updated"
+  },
+  "tl_notif_btn_open":{
+    "message":"Open options page"
+  },
+  "tl_notif_btn_rate":{
+    "message":"Rating && comment"
+  },
+  "tl_lang_auto":{
+    "message":"Auto"
+  },
+  "tl_lang_en":{
+    "message":"English(en)"
+  },
+  "tl_title_newengine":{
+    "message":"Add new engine"
+  },
+  "tl_title_newaction":{
+    "message":"Add new action"
+  },
+  "tl_title_newscript":{
+    "message":"Add new script"
+  },
+  "tl_title_editaction":{
+    "message":"Edit action"
+  },
+  "tl_title_editengine":{
+    "message":"Edit engine"
+  },
+  "tl_title_editscript":{
+    "message":"Edit script"
+  },
+  "tl_title_editdirect":{
+    "message":"Edit directions"
+  },
+  "tl_tip_menupin":{
+    "message":"Pin menu bar"
+  },
+  "tl_tip_menuunpin":{
+    "message":"Unpin menu bar"
+  },
+  "tl_tip_editdir":{
+    "message":"Edit directions"
+  },
+  "tl_tip_resetcur":{
+    "message":"Reset current page"
+  },
+  "tl_tip_addnew":{
+    "message":"Add New"
+  },
+  "tl_rss":{
+    "message":"RSS"
+  },
+  "tl_random":{
+    "message":"Random Number"
+  },
+  "tl_extmgm":{
+    "message":"Extensions Management"
+  },
+  "tl_app_random_bound":{
+    "message":"Bound:"
+  },
+  "tl_app_random_num":{
+    "message":"Number:"
+  },
+  "tl_app_random_norepeat":{
+    "message":"No-repeat"
+  },
+  "tl_app_random_fill":{
+    "message":"Fill all digital"
+  },
+  "tl_app_extmgm_disableall":{
+    "message":"Disable All"
+  },
+  "tl_recentclosed":{
+    "message":"Recent Closed Tabs"
+  },
+  "tl_app_recentclosed_tabs":{
+    "message":"tabs"
+  },
+  "tl_synced":{
+    "message":"Synced Tabs"
+  },
+  "tl_app_synced_switch":{
+    "message":"Switch synced device: "
+  },
+  "tl_app_synced_nodevice":{
+    "message":"there's no synced device."
+  }
+}

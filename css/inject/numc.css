@@ -1,0 +1,24 @@
+smartkey.sk_apps#sk_apps_numc span{
+	display: inline-block;
+}
+smartkey.sk_apps#sk_apps_numc .numcbox{
+	min-height: 190px;
+	text-align: left;
+}
+smartkey.sk_apps#sk_apps_numc .sk_numc_input,
+smartkey.sk_apps#sk_apps_numc .sk_numc_output{
+	width: 260px;
+	height: 40px;
+	margin-bottom: 5px;
+	font-size: 16px;
+	font-weight: bold;
+}
+smartkey.sk_apps#sk_apps_numc .sk_numc_span{
+	//width: 80px;
+	display: inline-block;
+	padding-left: 10px;
+}
+smartkey.sk_apps#sk_apps_numc .sk_numc_btn{
+	width: 290px;
+	margin-top: 5px;
+}

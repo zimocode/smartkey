@@ -1,0 +1,30 @@
+smartkey.sk_apps#sk_apps_random span{
+	display: inline-block;
+}
+smartkey.sk_apps#sk_apps_random .randombox{
+	min-height: 190px;
+	text-align: left;
+}
+smartkey.sk_apps#sk_apps_random #sk_random_print{
+	width: 260px;
+	height: 40px;
+	margin-bottom: 5px;
+	font-size: 16px;
+	font-weight: bold;
+}
+smartkey.sk_apps#sk_apps_random .sk_random_text{
+	width: 50px;
+	margin: 3px 10px !important;
+}
+smartkey.sk_apps#sk_apps_random .sk_random_span{
+	width: 80px;
+	display: inline-block;
+}
+smartkey.sk_apps#sk_apps_random .sk_random_btn{
+	width: 280px;
+	margin-top: 5px;
+}
+smartkey.sk_apps#sk_apps_random .sk_random_chkbox{
+	//margin-left: 90px;
+	margin-right: 5px;
+}

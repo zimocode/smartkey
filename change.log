@@ -1,0 +1,26 @@
+{
+	"log": [
+		{
+			"ver": "1.0.621.124",
+			"date": "2015.05.05",
+			"content":[
+				"fix bugs"
+			]
+		},
+		{
+			"ver": "1.0.524.121",
+			"date": "2015.04.27",
+			"content":[
+				"new mini-apps: <i>rss<i>, <i>tablist<i>, <i>random<i>, <i>extmgm<i>, <i>recentbk<i>, <i>recentht<i>, <i>base64<i>, <i>qr<i>, <i>numc<i>, <i>speaker<i>, <i>appslist<i>",
+				"fix bugs"
+			]
+		}
+	],
+	"oldlog": [
+		{
+			"ver": "1.0.516.115",
+			"date": "2015.04.20",
+			"content": ["first version"]
+		}
+	]
+}

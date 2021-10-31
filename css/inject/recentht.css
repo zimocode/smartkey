@@ -1,0 +1,49 @@
+smartkey.sk_apps#sk_apps_recentht .sk_box_content{
+	width: 400px;
+}
+smartkey.sk_apps#sk_apps_recentht  ul{
+	padding: 10px;
+	text-align: left;
+}
+smartkey.sk_apps#sk_apps_recentht  li{
+	border: 1px solid rgba(204, 204, 255, 0.6);
+	border-radius: 2px;
+	padding: 2px 5px;
+	margin: 1px 0;
+	font-size: 14px;
+	height: 30px;
+	line-height: 30px;
+	font-weight: bold;
+	font-size: 14px;
+	color: rgba(0, 0, 0, 0.7);
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	cursor: pointer;
+	transition:all .4s ease-in-out;
+}
+smartkey.sk_apps#sk_apps_recentht  li img{
+	width: 16px;
+	margin-right: 5px;
+}
+smartkey.sk_apps#sk_apps_recentht  li:hover{
+	box-shadow: 0px 1px 3px #ccc;
+	background: #d0d9ff;
+	line-height: 30px;
+	border-color: rgba(86,119,252,.5) !important;
+}
+smartkey.sk_apps#sk_apps_recentht  li:hover .sk_tablist_button_liclose{
+	opacity: 1;
+	margin-top: -30px;
+}
+smartkey.sk_apps#sk_apps_recentht  li span{
+	display: inline-block;
+	width: 372px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+smartkey.sk_apps#sk_apps_recentht  li:hover .li_0{
+	transition:all .4s ease-out;
+	margin-left: -372px;
+}

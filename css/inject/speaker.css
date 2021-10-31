@@ -1,0 +1,30 @@
+smartkey.sk_apps#sk_apps_speaker .sk_box_content{
+	width: 400px;
+	height: auto;
+}
+smartkey.sk_apps#sk_apps_speaker input[type=radio]{
+	margin: 5px;
+}
+smartkey.sk_apps#sk_apps_speaker button{
+	margin: 10px 10px;
+}
+smartkey.sk_apps#sk_apps_speaker .speaker_outputbox,
+smartkey.sk_apps#sk_apps_speaker .speaker_inputbox{
+	text-align: center;
+}
+smartkey.sk_apps#sk_apps_speaker .speaker_typelist{
+	text-align: left;
+}
+smartkey.sk_apps#sk_apps_speaker .speaker_inputarea{
+	width: 360px;
+	height: 200px;
+}
+smartkey.sk_apps#sk_apps_speaker .speaker_outputbox{
+	position: absolute;
+	width: 100%;
+	left: -500px;
+	top: 10px;
+	background-color: #fff;
+	padding: 5px; 
+	transition:all .4s ease-in-out;
+}
